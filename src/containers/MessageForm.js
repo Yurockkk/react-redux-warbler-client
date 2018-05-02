@@ -29,7 +29,7 @@ class MessageForm extends Component {
           value={this.state.message}
           onChange={e => this.setState({ message: e.target.value })}
         />
-        <button type="submit" className="btn btn-success">
+        <button type="submit" className="btn btn-success submitBtn">
           Add my message!
         </button>
       </form>

@@ -82,3 +82,7 @@ a.btn.btn-danger,
 a.btn.btn-danger:hover {
   color: white;
 }
+
+.submitBtn {
+  margin-top: 15px;
+}

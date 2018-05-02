@@ -96,7 +96,7 @@ class AuthForm extends Component {
 
                 </div>
               )}
-              <button type="submit" className="btn btn-primary btn-block btn-lg" name="button">
+              <button type="submit" className="btn btn-primary btn-block btn-lg submitBtn" name="button">
                 {buttonText}
               </button>
             </form>
