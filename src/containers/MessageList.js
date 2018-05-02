@@ -12,7 +12,7 @@ class MessageList extends Component {
     let messageList = messages.map(m => (
       <MessageItem
         key={m._id}
-        date={m.createAt}
+        date={m.createdAt}
         text={m.text}
         username={m.user.username}
         profileImageUrl={m.user.profileImageUrl}
